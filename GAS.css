@@ -1,0 +1,126 @@
+*{
+    font-family: arial,sans-serif;
+}
+body{
+    background-color: black;
+}
+ul {  
+    list-style: none;  
+    padding: 0px;  
+    line-height: 0px;  
+   }  
+   li {  
+    display: inline-block;  
+    padding: 5px 7px;  
+    vertical-align: middle;  
+   }  
+   nav, footer {  
+    padding: 4px 30px;  
+   }  
+   nav img {  
+    list-style: none;  
+    color: #000;  
+    opacity: 0.85;  
+   }  
+   nav a {  
+    text-decoration: none;  
+    color: #000;  
+    opacity: 0.75;  
+   }  
+   nav ul li a:hover {  
+    text-decoration-line: underline;  
+    opacity: 0.65;  
+   }  
+   .r_nav {  
+    float: right;  
+    position: relative;  
+    padding-top: 0px;  
+    padding-right: 8px; 
+    color: red; 
+    text-decoration-color: white;
+   }  
+
+   h3{
+    color: red;
+    font-family: arial,sans-serif;
+    padding-left: 5%;
+   }
+   #b1{
+    color: white;
+    justify-content:left;
+
+    display: inline;
+    line-height: 1.6;
+    display: inline-block;
+    text-decoration-color: white;
+    padding-left: 5%;
+   }
+
+   form {
+    display: block;
+    margin-top: 0em;
+}
+   input{
+    color: black;
+   }
+
+   #allwords {
+    margin-left: 100px;
+    box-sizing: border-box;
+    width: 600px;
+  }
+  
+  #phrase {
+    margin-left:28px;
+    width: 600px;
+    box-sizing: border-box;
+  }
+  
+  #anywords {
+    margin-left: 72px;
+    width: 600px;
+    box-sizing: border-box;
+  }
+  
+  #nonewords{
+    margin-left: 60px;
+    box-sizing: border-box;
+    width: 600px;
+  }
+  
+  #num {
+    margin-left:45px;
+    width:300px;
+    box-sizing: border-box;
+  }
+  #to {
+    width: 270px;
+    box-sizing: border-box;
+  }
+  footer {  
+    line-height: 0px;  
+    position: absolute;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    color: #666666;  
+    background-color: gray;  
+    border-top: solid 1px #e4e4e4;  
+   }  
+   footer a {  
+    text-decoration: none;  
+    color: #000;  
+    opacity: 0.75;  
+   }  
+   footer a:hover {  
+    text-decoration-line: underline;  
+   } 
+   .ftr{
+    float: left;
+   }
+   .l_ftr {  
+    float: left;  
+   }  
+   .r_ftr {  
+    float: right;  
+   } 
